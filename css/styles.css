@@ -461,7 +461,6 @@ p {
 }
 
 .frame-child {
-  position: relative;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -470,7 +469,6 @@ p {
 }
 
 .author {
-  position: relative;
   font-weight: 600;
 }
 
@@ -495,7 +493,6 @@ p {
 }
 
 .div {
-  position: relative;
   font-family: "Open Sans";
   color: #d1d1d1;
 }
@@ -523,13 +520,11 @@ p {
 
 .hi-everyone-we-container {
   align-self: stretch;
-  position: relative;
   font-size: 14px;
   font-family: "Open Sans";
 }
 
 .blogcomments-specific {
-  position: relative;
   border-radius: 12px;
   background-color: #fff;
   border: 1px solid #d1d1d1;
@@ -571,17 +566,12 @@ p {
 }
 
 .ads {
-  width: 1260px;
-  margin: o auto;
-  text-align: center;
-  align-items: center;
-  margin-top: 112px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 116px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 .basicsimage-light-child {
-  position: absolute;
   height: 100%;
   width: 100%;
   top: 0px;
@@ -597,13 +587,11 @@ p {
 }
 
 .basicsimage-light {
-  position: relative;
   width: 269px;
   height: 180px;
 }
 
 .tag {
-  position: relative;
   font-weight: 600;
 }
 
@@ -618,14 +606,9 @@ p {
 }
 
 .space-for-your {
-  position: relative;
   font-weight: 600;
   display: inline-block;
   width: 267px;
-}
-
-.author {
-  position: relative;
 }
 
 .author-parent {
@@ -660,7 +643,6 @@ p {
 }
 
 .blogpostmedium {
-  position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;

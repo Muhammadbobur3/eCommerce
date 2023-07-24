@@ -1,15 +1,11 @@
 .ads{
-  width: 1260px;
-  margin: o auto;
-  text-align: center;
-  align-items: center;
-  margin-top: 112px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 116px;
+ display: grid;
+ grid-template-columns: auto auto auto auto;
 }
 
 .basicsimage-light-child {
-  position: absolute;
+ 
   height: 100%;
   width: 100%;
   top: 0px;
@@ -23,12 +19,12 @@
   object-fit: cover;
   }
   .basicsimage-light {
-  position: relative;
+
   width: 269px;
   height: 180px;
   }
   .tag {
-  position: relative;
+
   font-weight: 600;
   }
   .tagsc2default {
@@ -41,13 +37,13 @@
   justify-content: flex-start;
   }
   .space-for-your {
-  position: relative;
+
   font-weight: 600;
   display: inline-block;
   width: 267px;
   }
   .author {
-  position: relative;
+
   }
   .author-parent {
   overflow: hidden;
@@ -78,7 +74,7 @@
   gap: 8px;
   }
   .blogpostmedium {
-  position: relative;
+
   width: 100%;
   display: flex;
   flex-direction: column;
