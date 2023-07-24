@@ -1,6 +1,15 @@
 .posts {
   padding-top: 69px;
   &__wrap {
+    &__head {
+      margin-bottom: 36px;
+      color: #151515;
+      font-family: "Poppins";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
     &__cards {
       width: 100%;
       display: flex;
@@ -85,6 +94,9 @@
           line-height: normal;
           padding: 0 8px;
           margin-bottom: 8px;
+          background-color: #f4f8ec;
+          border-radius: 12px;
+          width: 70px;
         }
 
         &__head {
@@ -94,7 +106,6 @@
           font-style: normal;
           font-weight: 600;
           line-height: normal;
-          margin-bottom: 16px;
         }
 
         &__date {
