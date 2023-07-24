@@ -1,0 +1,90 @@
+.Freshnesecom__section{
+  padding-top: 48px;
+  max-width: 569px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+.Freshnesecom__title{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: #151515;
+  text-align: left; 
+}
+.Freshnesecom__intro__text{
+  position: relative;
+font-size: 17px;
+font-family: 'Open Sans';
+color: #151515;
+text-align: left;
+margin-top: 12px;
+}
+
+
+
+.Freshnesecom__form {
+  max-width: 569px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+#fname {
+  display: inline-block;
+  width: 268px;
+  height: 42px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+}
+
+.Freshnesecom__fborder {
+  margin-top: 32px;
+  width: 497px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  padding: 9px 16px;
+  align-items: center;
+  font-size: 14px;
+  color: #151515;
+  font-family: "Open Sans";
+}
+.comments{
+  margin-top: 32px;
+}
+#Freshnesecom__comment {
+
+  width: 569px;
+  height: 112px;
+  display: inline-block;
+  
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+
+}
+
+.Freshnesecom__button {
+  margin-top: 32px;
+  border-radius: 12px;
+  background-color: #6a983c;
+  border: 2px solid #46760a;
+  box-sizing: border-box;
+  padding: 12px 48px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.Freshnesecom__button:hover {
+  cursor: pointer;
+}

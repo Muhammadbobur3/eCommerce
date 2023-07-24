@@ -1,0 +1,92 @@
+.ads{
+  width: 1260px;
+  margin: o auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.basicsimage-light-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 12px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  }
+  .basicsimage-light {
+  position: relative;
+  width: 269px;
+  height: 180px;
+  }
+  .tag {
+  position: relative;
+  font-weight: 600;
+  }
+  .tagsc2default {
+  border-radius: 12px;
+  background-color: #f4f8ec;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 8px;
+  align-items: center;
+  justify-content: flex-start;
+  }
+  .space-for-your {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 267px;
+  }
+  .author {
+  position: relative;
+  }
+  .author-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  }
+  .space-for-your-heding-is-here-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 18px;
+  color: #151515;
+  }
+  .tagsc2default-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  }
+  .blogpostmedium {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 12px;
+  color: #6a983c;
+  font-family: "Poppins";
+  }
