@@ -1,0 +1,35 @@
+.box{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+    height: 55px;
+    padding: 0 45px 0 45px;
+
+    .box__h2{
+        display: flex;
+        padding-right: 2px;
+    }
+
+}
+
+.box__menu{
+    display: flex;
+    padding: 16px 0 16px 45px; 
+
+    .box__text{
+        text-decoration: none;
+        color: #A9A9A9;
+        font-size: 12px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .box__text:hover{
+        color: #151515;
+    }
+
+    .box__p{
+        color: #A9A9A9;
+    }
+}

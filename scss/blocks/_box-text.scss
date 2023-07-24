@@ -1,0 +1,45 @@
+.box-text{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+    .box-text__tag{
+
+        .div{
+            margin-top: 16px;
+            display: flex;
+            text-align: center;
+
+            .box-text__p{
+                margin-right: 8px;
+                margin-bottom: 8px;
+                width: 50px;
+                border-radius: 12px;
+                background-color: #F4F8EC;
+                color: #6A983C;
+            }
+            .box-text__p2{
+                margin-right: 8px;
+                margin-bottom: 8px;
+                width: 80px;
+                border-radius: 12px;
+                background-color: #F4F8EC;
+                color: #6A983C;
+            }
+        }
+    }
+    .box-text__arrow{
+        display: flex;
+        margin-top: 45px;
+    }
+    .box-text3{
+        margin-left: 40px;
+
+        .box-text__h2{
+            margin-bottom: 12px;
+        }
+        .box-text__text-p{
+            margin-bottom: 48px;    
+        }
+    }
+}

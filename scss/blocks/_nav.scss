@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    // margin-left: 80px;
+    // margin-right: 80px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    .nav__information{
+        display: flex;
+
+       .nav__p{
+        margin-right: 33px;
+
+        .nav__a{
+            text-decoration: none;
+            color: #151515;
+        }
+        .nav__a:hover{
+            color: #6A983C;
+        }
+       }
+       .nav__p:last-child{
+        margin-right: 0;
+       }
+    }
+    .nav__contact{
+        display: flex;
+
+        .nav__p{
+            margin-right: 33px;
+
+            .nav__a{
+                text-decoration: none;
+                color: #6A983C;
+            }
+            .nav__a:hover{
+                color: #151515;
+            }
+        }
+        .nav__p:last-child{
+            margin-right: 0;
+           }
+    }
+}
