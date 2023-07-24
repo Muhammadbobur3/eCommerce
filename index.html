@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="checkout">
+    <div class="container">
+      <div class="checkout__billing-info__box">
+        <div class="checkout__billing-info">
+          <h2 class="checkout__bolling-info__title">Billing info</h2>
+          <p class="checkout__bolling-info__text">Please enter your billing info</p>
+        </div>
+        <p class="checkout__billing-info__right-text">Step 1 of 5</p>
+      </div>
+      <form action="" class="checkout__form">
+        <div class="checkout__form__box">
+          <label for="firtsname" class="checkout__form__label-fname">Firts name</label>
+          <input type="text" class="checkout__form__input-fname" name="firtsname" id="firtsname"
+            placeholder="Firts name">
+        </div>
+        <div class="checkout__form__box">
+          <label for="lastname" class="checkout__form__label-lname">Last name</label>
+          <input type="text" class="checkout__form__input-lname" name="lastname" id="lastname" placeholder="Last name">
+        </div>
+        <div class="checkout__form__box">
+          <label for="email" class="checkout__form__label-email" email>Email address</label>
+          <input type="email" class="checkout__form__input-email" name="email" id="email" placeholder="Email address">
+        </div>
+        <div class="checkout__form__box">
+          <label for="phone" class="checkout__form__label-phone">Phone number</label>
+          <input type="tel" class="checkout__form__input-phone" name="phone" id="phone" placeholder="Phone number">
+        </div>
+        <div class="checkout__form__box">
+          <label for="address" class="checkout__form__label-adres">Address </label>
+          <input type="text" class="checkout__form__input-adres" name="address" id="address" placeholder="Address">
+        </div>
+        <div class="checkout__form__box">
+          <label for="siti" class="checkout__form__label-siti">Town/siti</label>
+          <input type="text" class="checkout__form__input-siti" name="siti" id="siti" placeholder="Town or siti">
+        </div>
+
+        <div class="checkout__form__box">
+          <label for="country" class="checkout__form__label-country">State / Country</label>
+          <input type="text" class="checkout__form__input-country" name="country" id="country"
+            placeholder="Choose a state or Country">
+          <img src="./img/ic-chevron-top-bottom.svg" class="img__icon" width="16" height="16" alt="ic">
+        </div>
+        <div class="checkout__form__box">
+          <label for="file" class="checkout__form__label-file">ZIP/Postal code</label>
+          <input type="text" class="checkout__form__input-file" name="file" id="file" placeholder="Postal code or ZIP">
+        </div>
+        <div class="checkout__form__box__chexkbox">
+          <input type="checkbox">
+          <p class="checkout__form__box__chexkbox__text">Ship to a different address?</p>
+        </div>
+      </form>
+
+      <div class="checkout__billing-info__box">
+        <div class="checkout__billing-info">
+          <h2 class="checkout__bolling-info__title">Billing method</h2>
+          <p class="checkout__bolling-info__text">Please enter your payment method</p>
+        </div>
+        <p class="checkout__billing-info__right-text">Step 2 of 5 </p>
+      </div>
+
+      <form action="" class="checkout__form__box__center">
+        <div class="checkout__form__box__wrapper">
+          <div class="checkout__form__left__box">
+            <img src="./img/ic-actions-select.svg" width="24" height="24" alt="">
+            <p class="checkout__form__text">FedEx</p>
+          </div>
+          <div class="checkout__form__center__box">
+            <p class="checkout__form__center__box__text">
+              <span>+32 USD</span>Additional price
+            </p>
+          </div>
+          <img src="./img/fed-ex.svg" width="54" height="16" alt="">
+        </div>
+
+        <div class="checkout__form__box__wrapper">
+          <div class="checkout__form__left__box">
+            <img src="./img/ic-actions-select.svg" width="24" height="24" alt="">
+            <p class="checkout__form__text">DHL</p>
+          </div>
+          <div class="checkout__form__center__box">
+            <p class="checkout__form__center__box__text">
+              <span>+32 USD</span>Additional price
+            </p>
+          </div>
+          <img src="./img/Vector.svg" width="94" height="16" alt="">
+        </div>
+      </form>
+
+      <div class="checkout__billing-info__box">
+        <div class="checkout__billing-info">
+          <h2 class="checkout__bolling-info__title">Payment method</h2>
+          <p class="checkout__bolling-info__text">Please enter your payment method</p>
+        </div>
+        <p class="checkout__billing-info__right-text">Step 3 of 5 </p>
+      </div>
+      <div class="paymend">
+        <div class="paymend__wrapper">
+          <div class="paymend__left__box">
+            <img src="./img/cardd.svg" width="24" height="24" alt="card">
+            <p class="paymend__left__box__text">Credit card</p>
+          </div>
+          <div class="paymend__right__box">
+            <img src="./img/vasa.svg" width="49" height="16" alt="visa">
+            <img src="./img/mastercard.svg" width="33" height="16" alt="mastercard">
+          </div>
+        </div>
+        <form action="" class="paymend__form">
+          <label for="cardn" class="paymend__form__label__cardn">Card number</label>
+          <input type="text" id="cardn" class="paymend__form__input__cardn" placeholder="Card number">
+          <div class="paymend__form__box">
+            <label for="cardh" class="paymend__form__label__cardh">Card holder</label>
+            <input type="text" name="cardholder" id="cardh" class="paymend__form__input__cardh"
+              placeholder="Card holder">
+            <div class="paymend__form__box__wrapper">
+
+              <label for="Expiration date" class="paymend__form__label__data">Expiration date</label>
+              <input type="text" name="Expiration date" id="Expiration date" class="paymend__form__input__data"
+                placeholder="DD/MM/YY">
+              <label for="CVC" class="paymend__form__label__cvc">CVC</label>
+              <input type="text" name="CVC" id="CVC" class="paymend__form__input__cvc" placeholder="text">
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+
+    </div>
+  </section>
+</body>
+
 </html>
