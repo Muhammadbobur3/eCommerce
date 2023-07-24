@@ -1,0 +1,227 @@
+.hero {
+  display: flex;
+  margin: 64px 45px;
+  gap: 32px;
+}
+.category {
+  width: 179px;
+}
+.category__menu {
+  color: #151515;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.category__menu__list {
+  margin-top: 16px;
+}
+.category__menu__list-link {
+  color: #6a983c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.category__btn::after {
+  content: url(../../img/ic-chevron-right.svg);
+  width: 16px;
+  height: 16px;
+}
+.category__btn {
+  display: flex;
+  height: 48px;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  border: none;
+  background: #f5f5f5;
+  margin-top: 48px;
+  font-size: 15px;
+}
+.banner {
+  background-image: url(/img/Group.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 418px;
+  height: 280px;
+  border: 12px;
+}
+.banner__text {
+  color: #6a983c;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 48px;
+  margin-bottom: 8px;
+  margin-left: 33px;
+}
+.banner__title {
+  color: #151515;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 33px;
+}
+.banner__btn {
+  margin-top: 94px;
+  margin-left: 33px;
+  border-radius: 12px;
+  border: 2px solid #92c064;
+  color: #151515;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 12px 16px;
+  line-height: normal;
+}
+.section {
+  display: flex;
+  align-items: center;
+  margin: 64px 45px;
+  gap: 32px;
+
+}
+.products {
+  
+  width: 179px;
+}
+
+.products__menu {
+  color: #151515;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.farmers__products-menu__list{
+  margin-bottom: 16px;
+}
+.products__menu__list-link {
+  color: #6a983c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.products__btn::after {
+  content: url(../../img/ic-chevron-right.svg);
+  width: 16px;
+  height: 16px;
+}
+.products__btn {
+  display: flex;
+  height: 48px;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  border: none;
+  background: #f5f5f5;
+  margin-top: 48px;
+  font-size: 15px;
+}
+.example__cards{
+  display: flex;
+  justify-content: space-between;
+}
+.example {
+  width: 269px;
+  height: 323px;
+  border-radius: 12px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  padding: 16px;
+}
+.example__title {
+  color: #151515;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 16px;
+}
+.example__title-text {
+  color: #575757;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.price__btn {
+  border-radius: 12px;
+  border: 2px solid #46760a;
+  background: #6a983c;
+  padding: 12px;
+  color:  #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.example__number{
+  color:  #A9A9A9;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: line-through;
+  margin-bottom: 16px;
+}
+.farmers{
+  display: flex;
+  align-items: center;
+  margin: 64px 45px;
+  gap: 32px;
+}
+.farmers__product{
+  width: 179px;
+}
+
+.farmers__products__menu {
+  color: #151515;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.farmers__products-menu__list {
+  margin-top: 16px;
+}
+.farmers__product-menu__list-link {
+  color: #6a983c;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.farmers__product-btn::after {
+  content: url(../../img/ic-chevron-right.svg);
+  width: 16px;
+  height: 16px;
+}
+.farmers__product-btn {
+  display: flex;
+  height: 48px;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+  border: none;
+  background: #f5f5f5;
+  margin-top: 48px;
+  font-size: 15px;
+}
