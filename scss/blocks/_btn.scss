@@ -1,0 +1,90 @@
+.btn {
+     padding-top: 64px;
+
+
+    &__card {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding-bottom: 17px;
+    }
+
+
+    &-card-box__text {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+    }
+
+
+
+    &-card__text:nth-child(1) {
+        color: #A9A9A9;
+        font-family:sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    &-card__text {
+        color:  #151515;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    &-card__text:nth-child(3) {
+        color: #6A983C;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    &-card-box-last__text {
+         display: flex;
+         align-items: center;
+         gap: 4px;
+    }
+
+
+    &-card-last__text {
+        color: #A9A9A9;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &-card-first__text {
+        color: #6A983C;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 0 8px;
+        border-radius: 12px;
+        background: #F4F8EC;
+    }
+
+
+
+
+  
+    &-card-box__Btn {
+        color: aliceblue;
+        border-radius: 12px;
+        border: 2px solid #46760A;
+        background: #6A983C;
+        padding: 12px 16px;
+    }
+}
